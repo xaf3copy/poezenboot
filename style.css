@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0em;
+    padding: 0em;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: "Itim", cursive;
+    font-style: normal;
+    font-size: 16px;
+    color: #673C33;
+    background-color: #FFF9DD;
+}
+
+.itim-regular {
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    margin-bottom: 2em;
+    background-color: #F4D68D;
+    color: #673C33;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1em;
+    width: 100%;
+}
+
+.logo {
+    max-width: 6em;
+    height: 6em;
+}
+
+
+main p {
+    margin: 1em;
+}
+
+main img {
+    padding: 1em;
+    max-width: 13em;
+    max-height: 13em;
+}
+
+.waarschuwing-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F4D68D;
+    list-style-type: none;
+    padding-top: 1em;
+    padding-left: 1em;
+    margin-bottom: 6em;
+}
+
+.text-container ul {
+    list-style-type: none;
+    flex: 50%;
+}
+
+.img-container {
+    height: 4em;
+}
+
+.img-container img {
+    max-width: 10em;
+    max-height: 15em;
+}
+
+.quiz-form {
+    margin: 2em;
+    padding: 2em;
+    background-color: #F4D68D;
+}
+
+form h2 {
+    font-size: 16px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+label {
+    font-size: 16px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.footer-kat {
+    text-align: right;
+}
+
+.footer-kat img {
+    width: 7em;
+    height: 6em;
+}
+
+footer {
+    padding: 0vw 0vw;
+    text-decoration: none;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    padding: 3vw;
+    background-color: #F4D68D;
+    list-style: none;
+}
+
+footer img {
+    max-height: 4em;
+    max-width: 4em;
+    padding: 3vw;
+    text-decoration: none;
+}
